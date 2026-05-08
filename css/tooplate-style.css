@@ -436,12 +436,17 @@ p:last-child {
 }
 
 #authArea {
-    display: inline-block;
-    margin-left: 10px;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
 }
 
 #userInfo {
-    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 140px;
+    transform: translateY(-50%);
     color: white;
     font-size: 18px;
 }
