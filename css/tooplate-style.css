@@ -5,6 +5,24 @@ Template 2097 Pop
 https://www.tooplate.com/view/2097-pop
 
 */
+.nav-cta {
+    background: linear-gradient(135deg, #6c63ff, #8f94fb);
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.nav-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    opacity: 0.95;
+}
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -415,4 +433,15 @@ p:last-child {
   .fa-3x {
     font-size: 2.2em;
   }
+}
+
+#authArea {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#userInfo {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
 }
